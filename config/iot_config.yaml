@@ -1,0 +1,9 @@
+spark:
+  app_name: "RealTime_IoT_Conformance_Pipeline"
+  master: "local[*]"
+network:
+  host: "localhost"
+  port: 9999
+thresholds:
+  max_temperature: 120.0
+  max_vibration: 4.5
